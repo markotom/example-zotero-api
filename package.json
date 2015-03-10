@@ -1,0 +1,25 @@
+{
+  "name": "example-zotero-api",
+  "version": "0.0.1",
+  "description": "An example using the Zotero Web API",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markotom/example-zotero-api"
+  },
+  "keywords": [
+    "zotero",
+    "api",
+    "node"
+  ],
+  "author": "Marco Godínez <markotom@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/markotom/example-zotero-api/issues"
+  },
+  "homepage": "https://github.com/markotom/example-zotero-api",
+  "dependencies": {
+    "express": "^4.12.2",
+    "rc": "^0.6.0",
+    "zotero": "^0.2.0"
+  }
+}
