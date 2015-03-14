@@ -1,0 +1,14 @@
+{
+  "name": "example-zotero-api",
+  "version": "0.0.1",
+  "homepage": "https://github.com/markotom/example-zotero-api",
+  "description": "An example using the Zotero Web API",
+  "main": "app.js",
+  "authors": [
+    "Marco Godínez <markotom@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
