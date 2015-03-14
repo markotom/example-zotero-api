@@ -14,8 +14,8 @@ server.use(express.static(__dirname + '/public'));
 // Set public bower components
 server.use('/components', express.static(__dirname + '/bower_components'));
 
-// List Routes
-require('./routes/list')(server);
+// Controllers
+require('./controllers/welcome')(server);
 
 server.listen(process.env.PORT || 3000, function () {
   console.log('Server listening at %s', process.env.PORT || 3000);
