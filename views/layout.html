@@ -1,3 +1,24 @@
-<h1>Zotero</h1>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Zotero</title>
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="lead">Ejemplo con Zotero Web API</h1>
+    <p>
+      <a href="/list" class="btn btn-primary">Listar elementos</a>
+      <a href="/create" class="btn btn-primary">Añadir elemento</a>
+    </p>
 
-{% block content %}{% endblock %}
+    {% block content %}{% endblock %}
+
+    <hr>
+    <a href="https://github.com/markotom/example-zotero-api" class="btn btn-default btn-sm pull-right">
+      Ver en Github
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="panel panel-default">
+    <div class="panel-heading">Elementos</div>
+    <table class="table">
+      <thead>
+        <th>Título</th>
+        <th>Tipo</th>
+        <th>URL</th>
+        <th>Añadido</th>
+      </thead>
+      <tbody>
+        {% for item in items %}
+          <tr>
+            <td>{{ item.data.title }}</td>
+            <td>{{ item.data.itemType }}</td>
+            <td>{{ item.data.url }}</td>
+            <td>{{ item.data.dateAdded }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
