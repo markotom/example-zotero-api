@@ -1,6 +1,6 @@
 var config  = require('./config'),
     express = require('express'),
-    zotero  = require('./lib/zotero'),
+    Zotero  = require('./lib/zotero'),
     cons    = require('consolidate'),
     server  = express();
 
