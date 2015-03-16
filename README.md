@@ -11,7 +11,7 @@ $ npm install && bower install
 
 ## Configure
 
-Create your own .zoterorc with your settings. For instance:
+Create your own `.zoterorc` with your settings. For instance:
 
 ```yml
 [zotero]
